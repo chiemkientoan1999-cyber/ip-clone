@@ -1,0 +1,165 @@
+/* Store.css - Dành riêng cho trang Cửa Hàng */
+
+.store-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Hero Section Cửa Hàng --- */
+.store-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 80px 0 60px 0;
+}
+
+.store-hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+}
+
+.store-hero-title span {
+    color: #86868b;
+}
+
+.store-hero-subtitle {
+    text-align: right;
+}
+
+.store-hero-subtitle p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 8px;
+}
+
+.store-hero-subtitle a {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* --- Category Icons --- */
+.store-categories {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.store-categories::-webkit-scrollbar { display: none; }
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.category-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+}
+
+.category-item:hover .category-img {
+    transform: scale(1.05);
+}
+
+.category-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* --- Store Carousels (Thế hệ mới nhất, Hỗ trợ, v.v.) --- */
+.store-section-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: -0.01em;
+}
+.store-section-title span { color: #86868b; font-weight: 600; }
+
+.store-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    scrollbar-width: none;
+}
+.store-carousel::-webkit-scrollbar { display: none; }
+
+.store-card {
+    min-width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.store-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Thẻ nền đen (VD: MacBook Pro) */
+.store-card.dark-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+.store-card.dark-bg h3, .store-card.dark-bg p { color: #ffffff; }
+
+.store-card-tag {
+    font-size: 10px;
+    font-weight: 600;
+    color: #bf4800;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.store-card h3 { font-size: 28px; font-weight: 700; margin-bottom: 8px; line-height: 1.2; }
+.store-card p.desc { font-size: 14px; margin-bottom: 12px; font-weight: 400;}
+.store-card p.price { font-size: 14px; font-weight: 400; color: #1d1d1f;}
+.store-card.dark-bg p.price { color: #f5f5f7; }
+
+.store-card-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -30px;
+}
+
+.store-card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+/* Responsive cho Store */
+@media (max-width: 992px) {
+    .store-hero { flex-direction: column; align-items: flex-start; gap: 20px; padding: 40px 0; }
+    .store-hero-subtitle { text-align: left; }
+    .store-card { min-width: 300px; height: 450px; }
+}

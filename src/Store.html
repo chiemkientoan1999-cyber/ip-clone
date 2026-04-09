@@ -1,0 +1,150 @@
+import React, { useRef } from 'react';
+import './Store.css';
+
+export default function Store({ goToPage }) {
+  const latestCarouselRef = useRef(null);
+  const supportCarouselRef = useRef(null);
+
+  const scrollCarousel = (ref, direction) => {
+    const scrollAmount = 400;
+    if (ref.current) {
+      if (direction === 'left') ref.current.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+      else ref.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <div style={{ backgroundColor: '#f5f5f7', minHeight: '100vh', paddingBottom: '80px' }}>
+      <main className="store-container">
+        
+        {/* Phần Hero */}
+        <div className="store-hero">
+          <div className="store-hero-title">
+            Cửa Hàng. <br />
+            <span>Cách tốt nhất để mua sắm <br />sản phẩm bạn thích.</span>
+          </div>
+          <div className="store-hero-subtitle">
+            <p>Cần hỗ trợ mua sắm?</p>
+            <a href="#">Kết nối với Chuyên Gia trực tuyến &gt;</a>
+          </div>
+        </div>
+
+        {/* Các biểu tượng Danh mục (Tròn) */}
+        <div className="store-categories">
+          <div className="category-item" onClick={() => goToPage('iphone')}>
+            <img src="img/store-mac.png" alt="Mac" className="category-img" />
+            <span>Mac</span>
+          </div>
+          <div className="category-item" onClick={() => goToPage('iphone')}>
+            <img src="img/store-iphone.png" alt="iPhone" className="category-img" />
+            <span>iPhone</span>
+          </div>
+          <div className="category-item">
+            <img src="img/store-ipad.png" alt="iPad" className="category-img" />
+            <span>iPad</span>
+          </div>
+          <div className="category-item">
+            <img src="img/store-watch.png" alt="Apple Watch" className="category-img" />
+            <span>Apple Watch</span>
+          </div>
+          <div className="category-item">
+            <img src="img/store-airpods.png" alt="AirPods" className="category-img" />
+            <span>AirPods</span>
+          </div>
+          <div className="category-item">
+            <img src="img/store-airtag.png" alt="AirTag" className="category-img" />
+            <span>AirTag</span>
+          </div>
+          <div className="category-item">
+            <img src="img/store-tv.png" alt="Apple TV 4K" className="category-img" />
+            <span>Apple TV 4K</span>
+          </div>
+          <div className="category-item">
+            <img src="img/store-acc.png" alt="Phụ Kiện" className="category-img" />
+            <span>Phụ Kiện</span>
+          </div>
+        </div>
+
+        {/* Băng chuyền 1: Thế hệ mới nhất */}
+        <div className="store-section-title">
+          Thế hệ mới nhất. <span>Xem ngay có gì mới.</span>
+        </div>
+        
+        <div className="store-carousel" ref={latestCarouselRef}>
+          {/* Thẻ 1 */}
+          <div className="store-card">
+            <div className="store-card-tag">MỚI</div>
+            <h3>iPhone 17 Pro</h3>
+            <p className="desc">Pro đỉnh cao.</p>
+            <p className="price">Từ 34.999.000đ</p>
+            <div className="store-card-img-container">
+               {/* Thay src bằng link ảnh thật của bạn */}
+              <img src="img/store-ip17pro.png" alt="iPhone 17 Pro" />
+            </div>
+          </div>
+
+          {/* Thẻ 2 */}
+          <div className="store-card">
+            <div className="store-card-tag">MỚI</div>
+            <h3>MacBook Neo</h3>
+            <p className="desc">Điều tuyệt diệu của Mac ở mức giá bất ngờ.</p>
+            <p className="price">Từ 16.499.000đ</p>
+            <div className="store-card-img-container">
+              <img src="img/store-macneo.png" alt="MacBook Neo" />
+            </div>
+          </div>
+
+          {/* Thẻ 3 */}
+          <div className="store-card">
+            <div className="store-card-tag">MỚI</div>
+            <h3>iPhone 17e</h3>
+            <p className="desc">Đủ tính năng. Đầy giá trị.</p>
+            <p className="price">Từ 17.999.000đ</p>
+            <div className="store-card-img-container">
+              <img src="img/store-ip17e.png" alt="iPhone 17e" />
+            </div>
+          </div>
+
+          {/* Thẻ 4 (Nền đen) */}
+          <div className="store-card dark-bg">
+            <div className="store-card-tag">MỚI</div>
+            <h3>MacBook Pro</h3>
+            <p className="desc">Nay với M5, M5 Pro và M5 Max.</p>
+            <p className="price">Từ 44.999.000đ</p>
+            <div className="store-card-img-container">
+              <img src="img/store-macpro.png" alt="MacBook Pro" />
+            </div>
+          </div>
+        </div>
+        <div className="carousel-nav" style={{marginRight: '20px'}}>
+          <button className="nav-btn" onClick={() => scrollCarousel(latestCarouselRef, 'left')}><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+          <button className="nav-btn" onClick={() => scrollCarousel(latestCarouselRef, 'right')}><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+        </div>
+
+        {/* Băng chuyền 2: Hỗ trợ tại đây */}
+        <div className="store-section-title" style={{marginTop: '60px'}}>
+          Hỗ trợ tại đây. <span>Ngay khi bạn muốn, mọi việc bạn cần.</span>
+        </div>
+        
+        <div className="store-carousel" ref={supportCarouselRef}>
+          <div className="store-card" style={{flexDirection: 'row', minWidth: '480px'}}>
+             <div style={{flex: 1}}>
+                <div className="store-card-tag" style={{color: '#86868b'}}>CHUYÊN GIA APPLE</div>
+                <h3>Mua hàng với tư vấn trực tiếp từ Chuyên Gia trực tuyến.</h3>
+             </div>
+             <div style={{flex: 1, display: 'flex', alignItems: 'flex-end', justifyContent: 'flex-end'}}>
+                <img src="img/store-expert.png" alt="Chuyên Gia" style={{width: '100%', objectFit: 'contain'}} />
+             </div>
+          </div>
+          <div className="store-card" style={{minWidth: '480px'}}>
+            <h3>Dịch vụ và hỗ trợ. Chúng tôi luôn sẵn sàng hỗ trợ.</h3>
+            <div className="store-card-img-container">
+                <img src="img/store-support.png" alt="Hỗ trợ" style={{maxHeight: '200px', alignSelf: 'center', marginBottom: '40px'}}/>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  );
+}
