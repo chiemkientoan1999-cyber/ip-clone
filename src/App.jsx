@@ -68,7 +68,7 @@ export default function AppleVn() {
           
           <li className="nav-item">
             <a href="#" className="top-nav-logo" onClick={(e) => { e.preventDefault(); navigateTo('iphone'); }}>
-              <img src="img/images.png" alt="Logo" />
+              <img src="./img/images.png" alt="Logo" />
             </a>
           </li>
 
@@ -501,40 +501,40 @@ export default function AppleVn() {
             <div className="model-nav-wrapper">
               <nav className="model-nav">
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/apple-iphone-17-pro-2-removebg-preview.png" alt="iPhone 17 Pro" /></div>
+                  <div className="model-icon"><img src="./img/apple-iphone-17-pro-2-removebg-preview.png" alt="iPhone 17 Pro" /></div>
                   <span>iPhone 17 Pro</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/iPhone-Air-Xanh-Da-Troii-removebg-preview.png" alt="iPhone Air" /></div>
+                  <div className="model-icon"><img src="./img/iPhone-Air-Xanh-Da-Troii-removebg-preview.png" alt="iPhone Air" /></div>
                   <span>iPhone Air</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/iphone_17_tim_tinhtemobile_25576edc71294165a84e4bc6602f4be8-removebg-preview.png" alt="iPhone 17" /></div>
+                  <div className="model-icon"><img src="./img/iphone_17_tim_tinhtemobile_25576edc71294165a84e4bc6602f4be8-removebg-preview.png" alt="iPhone 17" /></div>
                   <span>iPhone 17</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/iphone-17e-finish-unselect-gallery-1-202603_FMT_WHH-removebg-preview.png" alt="iPhone 17e" /></div>
+                  <div className="model-icon"><img src="./img/iphone-17e-finish-unselect-gallery-1-202603_FMT_WHH-removebg-preview.png" alt="iPhone 17e" /></div>
                   <span>iPhone 17e</span>
                   <span className="new-tag">Mới</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/iphone-16-co-gi-moi6-removebg-preview.png" alt="iPhone 16" /></div>
+                  <div className="model-icon"><img src="./img/iphone-16-co-gi-moi6-removebg-preview.png" alt="iPhone 16" /></div>
                   <span>iPhone 16</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon" style={{ border: '1px solid #ccc', borderRadius: '8px' }}><img src="img/Screenshot_2026-03-24_101952-removebg-preview.png" alt="So Sánh" /></div>
+                  <div className="model-icon" style={{ border: '1px solid #ccc', borderRadius: '8px' }}><img src="./img/Screenshot_2026-03-24_101952-removebg-preview.png" alt="So Sánh" /></div>
                   <span>So Sánh</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/iphone_acc.avif" alt="Phụ Kiện" /></div>
+                  <div className="model-icon"><img src="./img/iphone_acc.avif" alt="Phụ Kiện" /></div>
                   <span>Phụ Kiện</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/designed-to_last__f60bwgep88ya_large-removebg-preview.png" alt="Mua Sắm iPhone" /></div>
+                  <div className="model-icon"><img src="./img/designed-to_last__f60bwgep88ya_large-removebg-preview.png" alt="Mua Sắm iPhone" /></div>
                   <span>Mua Sắm iPhone</span>
                 </div>
                 <div className="model-item">
-                  <div className="model-icon"><img src="img/Apple-App-Store-compliance-hero-lp.jpg.news_app_ed-removebg-preview.png" alt="iOS" /></div>
+                  <div className="model-icon"><img src="./img/Apple-App-Store-compliance-hero-lp.jpg.news_app_ed-removebg-preview.png" alt="iOS" /></div>
                   <span>iOS</span>
                 </div>
               </nav>
@@ -555,7 +555,7 @@ export default function AppleVn() {
           <div className="product-carousel" ref={productCarouselRef}>
             <div className="product-card">
               <div className="product-image-container">
-                <img src="img/iphone_17pro__t1j902iw6kya_large_2x.jpg" alt="iPhone 17 Pro" className="product-img" />
+                <img src="./img/iphone_17pro__t1j902iw6kya_large_2x.jpg" alt="iPhone 17 Pro" className="product-img" />
               </div>
               <div className="color-swatches">
                 <span className="swatch" style={{ backgroundColor: '#b59e83' }}></span>
@@ -574,7 +574,7 @@ export default function AppleVn() {
 
             <div className="product-card">
               <div className="product-image-container">
-                <img src="img/iphone_air__b5qmgl05ojyq_large_2x.jpg" alt="iPhone Air" className="product-img" />
+                <img src="./img/iphone_air__b5qmgl05ojyq_large_2x.jpg" alt="iPhone Air" className="product-img" />
               </div>
               <div className="color-swatches">
                 <span className="swatch" style={{ backgroundColor: '#cddceb' }}></span>
@@ -592,7 +592,7 @@ export default function AppleVn() {
 
             <div className="product-card">
               <div className="product-image-container">
-                <img src="img/iphone_17__fb1277oq3eaa_large_2x.jpg" alt="iPhone 17" className="product-img" />
+                <img src="./img/iphone_17__fb1277oq3eaa_large_2x.jpg" alt="iPhone 17" className="product-img" />
               </div>
               <div className="color-swatches">
                 <span className="swatch" style={{ backgroundColor: '#92a3ce' }}></span>
@@ -612,7 +612,7 @@ export default function AppleVn() {
 
             <div className="product-card">
               <div className="product-image-container">
-                <img src="img/iphone_17e__cq5ygzct314y_large_2x.jpg" alt="iPhone 17e" className="product-img" />
+                <img src="./img/iphone_17e__cq5ygzct314y_large_2x.jpg" alt="iPhone 17e" className="product-img" />
               </div>
               <div className="color-swatches">
                 <span className="swatch" style={{ backgroundColor: '#fbd9d1' }}></span>
@@ -631,7 +631,7 @@ export default function AppleVn() {
 
             <div className="product-card">
               <div className="product-image-container">
-                <img src="img/iphone_16__b6tkv86m2gc2_large_2x.jpg" alt="iPhone 16" className="product-img" />
+                <img src="./img/iphone_16__b6tkv86m2gc2_large_2x.jpg" alt="iPhone 16" className="product-img" />
               </div>
               <div className="color-swatches">
                 <span className="swatch" style={{ backgroundColor: '#4a54a4' }}></span>
@@ -665,7 +665,7 @@ export default function AppleVn() {
               <a href="#" className="btn-dark">Xem phim</a>
             </div>
             <div className="guided-tour-image">
-              <img src="img/guided_tour__dq7eb6kaepqq_large_1.webp" alt="Ngắm nhìn cận cảnh iPhone" />
+              <img src="./img/guided_tour__dq7eb6kaepqq_large_1.webp" alt="Ngắm nhìn cận cảnh iPhone" />
             </div>
           </div>
 
@@ -682,7 +682,7 @@ export default function AppleVn() {
                 <p className="feature-desc">Nhận 4.400.000đ-17.600.000đ dưới hình thức điểm tín dụng để mua iPhone 17, iPhone Air hoặc iPhone 17 Pro khi bạn trao đổi iPhone 13 trở lên.<sup>1</sup></p>
               </div>
               <div className="feature-image">
-                <img src="img/Apple-Trade-In-iPhone_big.jpg.large.jpg" alt="Apple Trade In" /> 
+                <img src="./img/Apple-Trade-In-iPhone_big.jpg.large.jpg" alt="Apple Trade In" /> 
               </div>
               <div className="feature-icon-bottom">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="6" x2="12" y2="18"></line><line x1="6" y1="12" x2="18" y2="12"></line></svg>
@@ -696,7 +696,7 @@ export default function AppleVn() {
                 <p className="feature-desc">Bao gồm lựa chọn lãi suất 0%.<sup>2</sup></p>
               </div>
               <div className="feature-image">
-                <img src="img/financing_49879ba79_2x.jpg" alt="Tài Chính Apple" />
+                <img src="./img/financing_49879ba79_2x.jpg" alt="Tài Chính Apple" />
               </div>
               <div className="feature-icon-bottom">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="6" x2="12" y2="18"></line><line x1="6" y1="12" x2="18" y2="12"></line></svg>
@@ -710,7 +710,7 @@ export default function AppleVn() {
                 <p className="feature-desc">Giao hàng tận cửa, luôn miễn phí.</p>
               </div>
               <div className="feature-image">
-                <img src="img/deliver_9b8c5d64c_2x.jpg" alt="Giao Hàng Miễn Phí" />
+                <img src="./img/deliver_9b8c5d64c_2x.jpg" alt="Giao Hàng Miễn Phí" />
               </div>
               <div className="feature-icon-bottom">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="6" x2="12" y2="18"></line><line x1="6" y1="12" x2="18" y2="12"></line></svg>
@@ -724,7 +724,7 @@ export default function AppleVn() {
                 <p className="feature-desc">Chọn iPhone mới cho bạn với sự hỗ trợ từ Chuyên Gia trực tuyến.</p>
               </div>
               <div className="feature-image">
-                <img src="img/iphone-card-50-specialist-help-202512_GEO_EMEA_LANG_FR_FMT_WHH.jpg" alt="Tư Vấn Chuyên Gia" />
+                <img src="./img/iphone-card-50-specialist-help-202512_GEO_EMEA_LANG_FR_FMT_WHH.jpg" alt="Tư Vấn Chuyên Gia" />
               </div>
               <div className="feature-icon-bottom">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="6" x2="12" y2="18"></line><line x1="6" y1="12" x2="18" y2="12"></line></svg>
@@ -738,7 +738,7 @@ export default function AppleVn() {
                 <p className="feature-desc">Sử dụng ứng dụng để có phương thức mua sắm cá nhân hơn.</p>
               </div>
               <div className="feature-image">
-                <img src="img/Apple-App-Store-compliance-hero-lp.jpg.news_app_ed-removebg-preview.png" alt="Apple Store App" />
+                <img src="./img/Apple-App-Store-compliance-hero-lp.jpg.news_app_ed-removebg-preview.png" alt="Apple Store App" />
               </div>
               <div className="feature-icon-bottom">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="6" x2="12" y2="18"></line><line x1="6" y1="12" x2="18" y2="12"></line></svg>
@@ -758,7 +758,7 @@ export default function AppleVn() {
           <div className="explore-carousel" ref={exploreCarouselRef}>
               
             <div className="explore-card text-white">
-              <img src="img/iphone-17-pro-max-witb-cosmicorange-202509_FMT_WHH-Picsart-BackgroundChanger.jpg" alt="Đổi Mới Sáng Tạo" className="explore-bg" />
+              <img src="./img/iphone-17-pro-max-witb-cosmicorange-202509_FMT_WHH-Picsart-BackgroundChanger.jpg" alt="Đổi Mới Sáng Tạo" className="explore-bg" />
               <div className="explore-content">
                 <p className="explore-category">Đổi Mới Sáng Tạo</p>
                 <h3>Đẹp và bền,<br />được mặc định trong<br />thiết kế.</h3>
@@ -767,7 +767,7 @@ export default function AppleVn() {
             </div>
 
             <div className="explore-card text-white">
-              <img src="img/Screenshot 2026-03-24 232757.png" alt="Camera Tiên Tiến" className="explore-bg" />
+              <img src="./img/Screenshot 2026-03-24 232757.png" alt="Camera Tiên Tiến" className="explore-bg" />
               <div className="explore-content">
                 <p className="explore-category">Camera Tiên Tiến</p>
                 <h3>Hình dung những<br />tấm ảnh và video<br />tuyệt nhất của bạn.</h3>
@@ -776,7 +776,7 @@ export default function AppleVn() {
             </div>
 
             <div className="explore-card text-white">
-              <img src="img/Untitled Project.jpg" alt="Chip Và Thời Lượng Pin" className="explore-bg" />
+              <img src="./img/Untitled Project.jpg" alt="Chip Và Thời Lượng Pin" className="explore-bg" />
               <div className="explore-content">
                 <p className="explore-category">Chip Và Thời Lượng Pin</p>
                 <h3>Nhanh. Nhanh dài lâu.</h3>
@@ -785,7 +785,7 @@ export default function AppleVn() {
             </div>
 
             <div className="explore-card text-white">
-              <img src="img/ios__02vczxaa3siu_large.jpg" alt="IOS và Apple Intelligence" className="explore-bg" />
+              <img src="./img/ios__02vczxaa3siu_large.jpg" alt="IOS và Apple Intelligence" className="explore-bg" />
               <div className="explore-content">
                 <p className="explore-category">IOS Và Apple Intelligence</p>
                 <h3>Diện mạo mới.<br />Còn diệu kỳ hơn.</h3>
@@ -794,7 +794,7 @@ export default function AppleVn() {
             </div>
 
             <div className="explore-card text-white">
-              <img src="img/95134_image003_15380612.png" alt="Môi Trường" className="explore-bg" />
+              <img src="./img/95134_image003_15380612.png" alt="Môi Trường" className="explore-bg" />
               <div className="explore-content">
                 <p className="explore-category">Môi Trường</p>
                 <h3>Được thiết kế thân thiện<br />với môi trường.</h3>
@@ -803,7 +803,7 @@ export default function AppleVn() {
             </div>
 
             <div className="explore-card text-white">
-              <img src="img/privacy__cv4ztv5gebyq_large.jpg" alt="Quyền Riêng Tư" className="explore-bg" />
+              <img src="./img/privacy__cv4ztv5gebyq_large.jpg" alt="Quyền Riêng Tư" className="explore-bg" />
               <div className="explore-content">
                 <p className="explore-category">Quyền Riêng Tư</p>
                 <h3>Dữ liệu của bạn.<br />Ngay nơi bạn muốn.</h3>
@@ -812,7 +812,7 @@ export default function AppleVn() {
             </div>
 
             <div className="explore-card text-white">
-              <img src="img/safety__faiti3j3g0mm_large.jpg" alt="Yên Tâm" className="explore-bg" />
+              <img src="./img/safety__faiti3j3g0mm_large.jpg" alt="Yên Tâm" className="explore-bg" />
               <div className="explore-content">
                 <p className="explore-category">Yên Tâm</p>
                 <h3>Các tính năng hữu ích.<br />Phòng khi cần kíp.</h3>
@@ -841,7 +841,7 @@ export default function AppleVn() {
                 <a href="#">Mua sắm phụ kiện iPhone &gt;</a>
               </div>
               <div className="accessory-image-container">
-                <img src="img/792f7726eb_accessoires-apple-iphone-17e-ipad-air-m4.jpg" alt="Phụ kiện iPhone" /> 
+                <img src="./img/792f7726eb_accessoires-apple-iphone-17e-ipad-air-m4.jpg" alt="Phụ kiện iPhone" /> 
               </div>
             </div>
 
@@ -853,7 +853,7 @@ export default function AppleVn() {
                 <a href="#">Mua &gt;</a>
               </div>
               <div className="accessory-image-container">
-                <img src="img/apple-airtag-2-combo-x4_5_.png" alt="AirTag" /> 
+                <img src="./img/apple-airtag-2-combo-x4_5_.png" alt="AirTag" /> 
               </div>
             </div>
           </div>
@@ -901,9 +901,9 @@ export default function AppleVn() {
               </div>
               
               <div className="pair-image-display">
-                <img src="img/Screenshot 2026-03-25 104004.png" alt="iPhone và Mac" className={`pair-img ${activePair === 'pair-mac' ? 'active' : ''}`} />
-                <img src="img/watch__co62o3s4jn6u_large-Photoroom.png" alt="iPhone và Apple Watch" className={`pair-img ${activePair === 'pair-watch' ? 'active' : ''}`} />
-                <img src="img/apple-airpods-pro-2-usb-c-10-Photoroom.png" alt="iPhone và AirPods" className={`pair-img ${activePair === 'pair-airpods' ? 'active' : ''}`} />
+                <img src="./img/Screenshot 2026-03-25 104004.png" alt="iPhone và Mac" className={`pair-img ${activePair === 'pair-mac' ? 'active' : ''}`} />
+                <img src="./img/watch__co62o3s4jn6u_large-Photoroom.png" alt="iPhone và Apple Watch" className={`pair-img ${activePair === 'pair-watch' ? 'active' : ''}`} />
+                <img src="./img/apple-airpods-pro-2-usb-c-10-Photoroom.png" alt="iPhone và AirPods" className={`pair-img ${activePair === 'pair-airpods' ? 'active' : ''}`} />
               </div>
             </div>
           </div>
@@ -1385,35 +1385,35 @@ export default function AppleVn() {
             {/* Các icon danh mục tròn */}
             <div className="store-categories">
               <div className="store-cat-item">
-                <img src="img\csm_macOS_26_Tahoe_91a0398a5e-e1749607258159-Photoroom.png" alt="Mac" className="store-cat-img" />
+                <img src="./img\csm_macOS_26_Tahoe_91a0398a5e-e1749607258159-Photoroom.png" alt="Mac" className="store-cat-img" />
                 <span>Mac</span>
               </div>
               <div className="store-cat-item" onClick={() => navigateTo('iphone')}>
-                <img src="img/designed-to_last__f60bwgep88ya_large-removebg-preview.png" alt="iPhone" className="store-cat-img" />
+                <img src="./img/designed-to_last__f60bwgep88ya_large-removebg-preview.png" alt="iPhone" className="store-cat-img" />
                 <span>iPhone</span>
               </div>
               <div className="store-cat-item">
-                <img src="img/ipad-card-50-financing-202501_GEO_SA_FMT_WHH-Photoroom.png" alt="iPad" className="store-cat-img" />
+                <img src="./img/ipad-card-50-financing-202501_GEO_SA_FMT_WHH-Photoroom.png" alt="iPad" className="store-cat-img" />
                 <span>iPad</span>
               </div>
               <div className="store-cat-item">
-                <img src="img/watch-card-40-compare-202509_GEO_VN_FMT_WHH-Photoroom.png" alt="Apple Watch" className="store-cat-img" />
+                <img src="./img/watch-card-40-compare-202509_GEO_VN_FMT_WHH-Photoroom.png" alt="Apple Watch" className="store-cat-img" />
                 <span>Apple Watch</span>
               </div>
               <div className="store-cat-item">
-                <img src="img/store-card-13-airpods-nav-202209.webp" alt="AirPods" className="store-cat-img" />
+                <img src="./img/store-card-13-airpods-nav-202209.webp" alt="AirPods" className="store-cat-img" />
                 <span>AirPods</span>
               </div>
               <div className="store-cat-item">
-                <img src="img/8.webp" alt="AirTag" className="store-cat-img" />
+                <img src="./img/8.webp" alt="AirTag" className="store-cat-img" />
                 <span>AirTag</span>
               </div>
               <div className="store-cat-item">
-                <img src="img\apple-tv-4k-128gb-mn893-1-750x500-Photoroom.png" alt="Apple TV 4K" className="store-cat-img" />
+                <img src="./img\apple-tv-4k-128gb-mn893-1-750x500-Photoroom.png" alt="Apple TV 4K" className="store-cat-img" />
                 <span>Apple TV 4K</span>
               </div>
               <div className="store-cat-item">
-                <img src="img/iPhone-17-Pro-Silicone-Case-with-MagSafe-–-Bright-Guava-Photoroom.png" alt="Phụ Kiện" className="store-cat-img" />
+                <img src="./img/iPhone-17-Pro-Silicone-Case-with-MagSafe-–-Bright-Guava-Photoroom.png" alt="Phụ Kiện" className="store-cat-img" />
                 <span>Phụ Kiện</span>
               </div>
             </div>
@@ -1430,7 +1430,7 @@ export default function AppleVn() {
                 <p className="desc">Pro đỉnh cao.</p>
                 <p className="price">Từ 34.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img\Iphone 17 Pro.jpg" alt="iPhone 17 Pro" />
+                  <img src="./img\Iphone 17 Pro.jpg" alt="iPhone 17 Pro" />
                 </div>
               </div>
 
@@ -1440,7 +1440,7 @@ export default function AppleVn() {
                 <p className="desc">Điều tuyệt diệu của Mac ở mức giá bất ngờ.</p>
                 <p className="price">Từ 16.499.000đ</p>
                 <div className="store-card-img">
-                  <img src="img/snapedit_1775530242443.png" alt="MacBook Neo" />
+                  <img src="./img/snapedit_1775530242443.png" alt="MacBook Neo" />
                 </div>
               </div>
 
@@ -1450,7 +1450,7 @@ export default function AppleVn() {
                 <p className="desc">Đủ tính năng. Đầy giá trị.</p>
                 <p className="price">Từ 17.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img\iphone-17e-co-gi-2-Photoroom.png" alt="iPhone 17e" />
+                  <img src="./img\iphone-17e-co-gi-2-Photoroom.png" alt="iPhone 17e" />
                 </div>
               </div>
 
@@ -1460,7 +1460,7 @@ export default function AppleVn() {
                 <p className="desc">Các tính năng thông minh mới. Trải nghiệm nghe sống động hơn.</p>
                 <p className="price">14.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img\Airpod Max 2.png" alt="AirPods Max 2" />
+                  <img src="./img\Airpod Max 2.png" alt="AirPods Max 2" />
                 </div>
               </div>
 
@@ -1470,7 +1470,7 @@ export default function AppleVn() {
                 <p className="desc">Nay với M5, M5 Pro và M5 Max.</p>
                 <p className="price">Từ 44.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img/Apple-MacBook-Pro-14-in-hero-251015-lp.jpg.news_app_ed.jpg" alt="MacBook Pro" />
+                  <img src="./img/Apple-MacBook-Pro-14-in-hero-251015-lp.jpg.news_app_ed.jpg" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1480,7 +1480,7 @@ export default function AppleVn() {
                 <p className="desc">Nay siêu mạnh mẽ với M5.</p>
                 <p className="price">Từ 29.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img/maxresdefault.jpg" alt="MacBook Pro" />
+                  <img src="./img/maxresdefault.jpg" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1490,7 +1490,7 @@ export default function AppleVn() {
                 <p className="desc">Nay siêu mạnh mẽ với M4.</p>
                 <p className="price">Từ 16.689.000đ hoặc 680.000đ/tháng trong 24 tháng</p>
                 <div className="store-card-img">
-                  <img src="img/71IZFXK5JGL.jpg" alt="MacBook Pro" />
+                  <img src="./img/71IZFXK5JGL.jpg" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1500,7 +1500,7 @@ export default function AppleVn() {
                 <p className="desc">Chiếc Apple Watch cực đỉnh giúp bạn theo dõi sức khẻo.</p>
                 <p className="price">Từ 11.499.000đ hoặc 468.000đ/tháng trong 24 tháng</p>
                 <div className="store-card-img">
-                  <img src="img\store-card-40-watch-s11-202509_GEO_VN_FMT_WHH-Photoroom.png" alt="MacBook Pro" />
+                  <img src="./img\store-card-40-watch-s11-202509_GEO_VN_FMT_WHH-Photoroom.png" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1510,7 +1510,7 @@ export default function AppleVn() {
                 <p className="desc">Đa tài, đa sắc.</p>
                 <p className="price">Từ 24.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img\Ip 17.png" alt="MacBook Pro" />
+                  <img src="./img\Ip 17.png" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1520,7 +1520,7 @@ export default function AppleVn() {
                 <p className="desc">iPhone mỏng nhất từng có.</p>
                 <p className="price">Từ 31.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img\Iphone Air.png" alt="MacBook Pro" />
+                  <img src="./img\Iphone Air.png" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1530,7 +1530,7 @@ export default function AppleVn() {
                 <p className="desc">Tuyệt diệu từ cái nhìn đầu tiên.</p>
                 <p className="price">Từ 44.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img/MFEW4.jpg" alt="MacBook Pro" />
+                  <img src="./img/MFEW4.jpg" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1540,7 +1540,7 @@ export default function AppleVn() {
                 <p className="desc">Thánh chuốt pixel.</p>
                 <p className="price">Từ 89.999.000đ</p>
                 <div className="store-card-img">
-                  <img src="img/studio-display-xdr-og-202603.jpg" alt="MacBook Pro" />
+                  <img src="./img/studio-display-xdr-og-202603.jpg" alt="MacBook Pro" />
                 </div>
               </div>
 
@@ -1550,7 +1550,7 @@ export default function AppleVn() {
                 <p className="desc">Đi cùng. Trò chuyện. Theo sát. Mãi yêu.</p>
                 <p className="price">Từ 6.999.000đ hoặc 285.000đ/tháng trong 24 tháng</p>
                 <div className="store-card-img">
-                  <img src="img/z6997027521929-90f4d28f7b896201fc41fb55d7043d9e.jpg" alt="MacBook Pro" />
+                  <img src="./img/z6997027521929-90f4d28f7b896201fc41fb55d7043d9e.jpg" alt="MacBook Pro" />
                 </div>
               </div>
             </div>
@@ -1573,7 +1573,7 @@ export default function AppleVn() {
                   <h3 style={{ padding: 0, margin: 0 }}>Mua hàng với tư vấn trực tiếp từ<br />Chuyên Gia trực tuyến.</h3>
                 </div>
                 <div className="store-card-img" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', margin: 0, zIndex: 1 }}>
-                  <img src="img\BeautyPlus-image-extender.jpeg" alt="Chuyên Gia" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'bottom center' }} />
+                  <img src="./img\BeautyPlus-image-extender.jpeg" alt="Chuyên Gia" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'bottom center' }} />
                 </div>
               </div>
               
@@ -1582,7 +1582,7 @@ export default function AppleVn() {
                   <h3 style={{ padding: 0, margin: 0 }}>Dịch vụ và hỗ trợ. Chúng tôi<br />luôn sẵn sàng hỗ trợ.</h3>
                 </div>
                 <div className="store-card-img" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', margin: 0, zIndex: 1 }}>
-                  <img src="img\store-card-50-genius-202603_FMT_WHH.jpg" alt="Hỗ trợ" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+                  <img src="./img\store-card-50-genius-202603_FMT_WHH.jpg" alt="Hỗ trợ" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
                 </div>
               </div>
 
@@ -1654,14 +1654,14 @@ export default function AppleVn() {
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, marginBottom: '10px' }}>Thấy là mê.</h3>
                   <p style={{ fontSize: '14px', padding: 0, marginBottom: 'auto' }}>Phụ kiện bạn yêu.<br/>Cách phối mới giữa nhiều màu sắc.</p>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'flex-end' }}>
-                    <img src="img\2-novos-acessorios-19-1260x671.jpg" alt="Phụ kiện" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\2-novos-acessorios-19-1260x671.jpg" alt="Phụ kiện" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                 </div>
 
                 {/* Thẻ 2: Ốp Lưng */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MHW64.jpg" alt="Ốp lưng" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MHW64.jpg" alt="Ốp lưng" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   {/* Chấm màu (swatches) */}
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
@@ -1677,7 +1677,7 @@ export default function AppleVn() {
                 {/* Thẻ 3: Dây Đeo Chéo */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\f10c64bbb336b68aeaf22830712dc8cf.avif" alt="Dây Đeo Chéo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\f10c64bbb336b68aeaf22830712dc8cf.avif" alt="Dây Đeo Chéo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#ff7b7b' }}></span>
@@ -1691,7 +1691,7 @@ export default function AppleVn() {
                 {/* Thẻ 4: Sạc MagSafe */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\vn-11134207-7ras8-m2s35xq9zn3uee.jpg" alt="Sạc MagSafe" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\vn-11134207-7ras8-m2s35xq9zn3uee.jpg" alt="Sạc MagSafe" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ height: '10px', marginBottom: '15px' }}></div> {/* Khoảng trống bù cho swatches */}
                   <div className="store-tag" style={{ color: 'transparent', padding: 0, marginBottom: '8px' }}>-</div>
@@ -1702,7 +1702,7 @@ export default function AppleVn() {
                 {/* Thẻ 5: Ốp Lưng Trong Suốt */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MHWC4.jpg" alt="Ốp lưng trong" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MHWC4.jpg" alt="Ốp lưng trong" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ height: '10px', marginBottom: '15px' }}></div>
                   <div className="store-tag" style={{ color: '#bf4800', padding: 0, marginBottom: '8px' }}>MỚI</div>
@@ -1713,7 +1713,7 @@ export default function AppleVn() {
                 {/* Thẻ 6: Dây Quấn Thể Thao Trong Màu Ổi Đào 46mm*/}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MHYP4.jpg" alt="Dây Quấn Thể Thao" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MHYP4.jpg" alt="Dây Quấn Thể Thao" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#ff7b7b' }}></span>
@@ -1728,7 +1728,7 @@ export default function AppleVn() {
                 {/* Thẻ 7: Dây Quấn Thể Thao Trong Màu Cam Clementine 46mm - M/L*/}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MHYD4ref.jpg" alt="Dây Quấn Thể Thao" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MHYD4ref.jpg" alt="Dây Quấn Thể Thao" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#ff7b7b' }}></span>
@@ -1743,7 +1743,7 @@ export default function AppleVn() {
                 {/* Thẻ 8: Magic Keyboard cho Ipad Air 13 inch (M4) - Tiếng Anh Mỹ - M... */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MGYY4.jpg" alt="Magic Keyboard" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MGYY4.jpg" alt="Magic Keyboard" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#dcd9d9' }}></span>
@@ -1758,7 +1758,7 @@ export default function AppleVn() {
                 {/* Thẻ 9: Pin MagSafe cho iPhone Air */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MGPG4.jpg" alt="Pin MagSafe" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MGPG4.jpg" alt="Pin MagSafe" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ height: '10px', marginBottom: '15px' }}></div> {/* Khoảng trống bù cho swatches */}
                   <div className="store-tag" style={{ color: 'transparent', padding: 0, marginBottom: '8px' }}>-</div>
@@ -1769,7 +1769,7 @@ export default function AppleVn() {
                 {/* Thẻ 10: Magic Keyboard cho Ipad Air 13 inch (M4) - Tiếng Anh Mỹ - M... */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MH044.jpg" alt="Magic Keyboard" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MH044.jpg" alt="Magic Keyboard" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#ADD8E6' }}></span>
@@ -1786,7 +1786,7 @@ export default function AppleVn() {
                 {/* Thẻ 11: Khám phá tất cả */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff', justifyContent: 'center', alignItems: 'center' }}>
                   <h3 style={{ fontSize: '22px', fontWeight: '700', padding: 0, textAlign: 'center', marginBottom: '30px' }}>Khám phá tất cả phụ kiện</h3>
-                  <img src="img\store-card-40-all-accessories-202603_FMT_WHH.jpg" alt="Tất cả phụ kiện" style={{ width: '80%', objectFit: 'contain' }} />
+                  <img src="./img\store-card-40-all-accessories-202603_FMT_WHH.jpg" alt="Tất cả phụ kiện" style={{ width: '80%', objectFit: 'contain' }} />
                 </div>
 
               </div>
@@ -1817,14 +1817,14 @@ export default function AppleVn() {
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, marginBottom: '10px' }}>Tặng 3 tháng sử dụng Apple Music miễn phí.</h3>
                   <p style={{ fontSize: '14px', padding: 0, marginBottom: 'auto', color: '#1d1d1f' }}>Đi kèm khi mua một số thiết bị Apple.⁺</p>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'flex-end' }}>
-                    <img src="img\store-card-40-apple-music-202509.webp" alt="Apple Music Promo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\store-card-40-apple-music-202509.webp" alt="Apple Music Promo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                 </div>
 
                 {/* Thẻ 2: AirPods Max 2 */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\airpods-max-select-202409-midnight_FMT_WHH.jpg" alt="AirPods Max 2" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\airpods-max-select-202409-midnight_FMT_WHH.jpg" alt="AirPods Max 2" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   {/* Swatches */}
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
@@ -1842,7 +1842,7 @@ export default function AppleVn() {
                 {/* Thẻ 3: AirPods Pro 3 */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\airpods-pro-3-hero-select-202509_FMT_WHH.jpg" alt="AirPods Pro 3" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\airpods-pro-3-hero-select-202509_FMT_WHH.jpg" alt="AirPods Pro 3" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ height: '10px', marginBottom: '15px' }}></div> {/* Bù khoảng trống swatches */}
                   <div className="store-tag" style={{ color: '#a56243', padding: 0, marginBottom: '8px' }}>Khắc Miễn Phí</div>
@@ -1853,7 +1853,7 @@ export default function AppleVn() {
                 {/* Thẻ 4: AirPods 4 */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\airpods-4-hero-select-202409_FMT_WHH.jpg" alt="AirPods 4" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\airpods-4-hero-select-202409_FMT_WHH.jpg" alt="AirPods 4" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ height: '10px', marginBottom: '15px' }}></div>
                   <div className="store-tag" style={{ color: '#a56243', padding: 0, marginBottom: '8px' }}>Khắc Miễn Phí</div>
@@ -1864,7 +1864,7 @@ export default function AppleVn() {
                 {/* Thẻ 5: Powerbeats Pro 2 */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MX743.jpg" alt="Powerbeats Pro 2" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MX743.jpg" alt="Powerbeats Pro 2" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#1d1d1f' }}></span>
@@ -1880,7 +1880,7 @@ export default function AppleVn() {
                 {/* Thẻ 6: Beats Solo 4 */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MUW33.jpg" alt="Beats Solo 4" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MUW33.jpg" alt="Beats Solo 4" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#1d1d1f' }}></span>
@@ -1895,7 +1895,7 @@ export default function AppleVn() {
                 {/* Thẻ 7: Beats Pill */}
                 <div className="store-card" style={{ minWidth: '320px', height: '420px', padding: '30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff' }}>
                   <div style={{ width: '100%', height: '220px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
-                    <img src="img\MWQW3.jpg" alt="Beats Pill" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                    <img src="./img\MWQW3.jpg" alt="Beats Pill" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '6px', marginBottom: '15px' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#1d1d1f' }}></span>
@@ -1935,7 +1935,7 @@ export default function AppleVn() {
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', background: 'linear-gradient(90deg, #cc2399, #5932df)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Apple Intelligence.</h3>
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2 }}>Sáng tạo, giao tiếp và hoàn tất<br/>công việc dễ dàng.<sup style={{fontSize: '14px'}}>‡</sup></h3>
                   <div style={{ flex: 1, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', marginTop: '20px' }}>
-                    <img src="img\macbook_pro_ipad_iphone_17e_refresh.jpg" alt="Apple Intelligence" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
+                    <img src="./img\macbook_pro_ipad_iphone_17e_refresh.jpg" alt="Apple Intelligence" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
                   </div>
                 </div>
 
@@ -1944,7 +1944,7 @@ export default function AppleVn() {
                   <div className="store-tag" style={{ color: '#86868b', padding: 0, marginBottom: '8px' }}>THÔNG SUỐT</div>
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2 }}>Mạnh mẽ khi riêng lẻ.<br/>Mạnh gấp bội khi lập đội.</h3>
                   <div style={{ flex: 1, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', marginTop: '20px' }}>
-                    <img src="img\store-card-50-continuity-202510_GEO_VN_FMT_WHH.jpg" alt="Thông suốt" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
+                    <img src="./img\store-card-50-continuity-202510_GEO_VN_FMT_WHH.jpg" alt="Thông suốt" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
                   </div>
                 </div>
 
@@ -1954,7 +1954,7 @@ export default function AppleVn() {
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2 }}>Thêm dấu ấn cá nhân.</h3>
                   <p style={{ fontSize: '14px', color: '#1d1d1f', padding: 0, margin: 0 }}>Thiết kế món quà của riêng người nhận với<br/>lời nhắn cá nhân hóa dành riêng cho họ.</p>
                   <div style={{ flex: 1, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', marginTop: '20px' }}>
-                    <img src="img\airpods-4-hero-select-202409_FMT_WHH.jpg" alt="App Store Engraving" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
+                    <img src="./img\airpods-4-hero-select-202409_FMT_WHH.jpg" alt="App Store Engraving" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
                   </div>
                 </div>
 
@@ -1962,7 +1962,7 @@ export default function AppleVn() {
                 <div className="store-card" style={{ minWidth: '400px', height: '500px', padding: '30px 30px 0 30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff', overflow: 'hidden' }}>
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2 }}>Bốn dịch vụ của Apple. Một<br/>gói đăng ký dễ dàng.</h3>
                   <div style={{ flex: 1, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
-                    <img src="img\store-card-50-subscriptions-202605_GEO_TH_FMT_WHH.jpg" alt="Apple Services" style={{ width: '80%', objectFit: 'contain' }} />
+                    <img src="./img\store-card-50-subscriptions-202605_GEO_TH_FMT_WHH.jpg" alt="Apple Services" style={{ width: '80%', objectFit: 'contain' }} />
                   </div>
                 </div>
 
@@ -1971,7 +1971,7 @@ export default function AppleVn() {
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2 }}>Bạn được bảo vệ nhiều<br/>mặt.</h3>
                   <p style={{ fontSize: '14px', color: '#1d1d1f', padding: 0, margin: 0 }}>AppleCare+ nay đã có dịch vụ sửa chữa<br/>không hạn chế cho trường hợp hư hỏng do<br/>sự cố bất ngờ.</p>
                   <div style={{ flex: 1, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', marginTop: '20px' }}>
-                    <img src="img\store-card-40-apple-music-202509.webp" alt="AppleCare+" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
+                    <img src="./img\store-card-40-apple-music-202509.webp" alt="AppleCare+" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
                   </div>
                 </div>
 
@@ -1979,7 +1979,7 @@ export default function AppleVn() {
                 <div className="store-card" style={{ minWidth: '400px', height: '500px', padding: '30px 30px 0 30px', display: 'flex', flexDirection: 'column', backgroundColor: '#ffffff', overflow: 'hidden' }}>
                   <h3 style={{ fontSize: '24px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2 }}>Khám phá tất cả các cách<br/>sử dụng Apple Pay.</h3>
                   <div style={{ flex: 1, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', marginTop: '20px' }}>
-                    <img src="img\store-card-50-applepay-202509_GEO_VN_FMT_WHH.jpg" alt="Apple Pay" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
+                    <img src="./img\store-card-50-applepay-202509_GEO_VN_FMT_WHH.jpg" alt="Apple Pay" style={{ width: '100%', objectFit: 'contain', objectPosition: 'bottom' }} />
                   </div>
                 </div>
 
@@ -2013,7 +2013,7 @@ export default function AppleVn() {
                     <h3 style={{ fontSize: '28px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2 }}>Tiết kiệm khi mua iPad<br/>hoặc Mac mới với chính<br/>sách trợ giá cho giáo dục.¹</h3>
                   </div>
                   <div className="store-card-img" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', margin: 0, zIndex: 1 }}>
-                    <img src="img\mac-card-40-education-202512_FMT_WHH (1).jpg" alt="Giáo dục" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'bottom' }} />
+                    <img src="./img/mac-card-40-education-202512_FMT_WHH (1).jpg" alt="Giáo dục" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'bottom' }} />
                   </div>
                 </div>
 
@@ -2024,7 +2024,7 @@ export default function AppleVn() {
                     <h3 style={{ fontSize: '28px', fontWeight: '700', padding: 0, margin: '0 0 10px 0', lineHeight: 1.2, color: '#ffffff' }}>Giải pháp đơn giản cho<br/>mọi công việc của bạn.</h3>
                   </div>
                   <div className="store-card-img" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', margin: 0, zIndex: 1 }}>
-                    <img src="img\store-card-40-business-202506_FMT_WHH.jpg" alt="Doanh nghiệp nhỏ" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+                    <img src="./img\store-card-40-business-202506_FMT_WHH.jpg" alt="Doanh nghiệp nhỏ" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
                   </div>
                 </div>
 
